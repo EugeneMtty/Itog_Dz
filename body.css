@@ -9,22 +9,26 @@
 
 .page-container {
   width: 1180px;
+  padding: 10px; /* не забыть */
   max-width: 100%;
   margin: 0 auto;
-  
 }
 
 html,
 body {
   height: 100%;
-  font-family: 'Roboto';
+  font-family: "Roboto", sans-serif;
 }
 
 a {
   text-decoration: none;
 }
 
-.wrapper{ 
+li {
+  list-style-type: none;
+}
+
+.wrapper {
   display: flex;
   min-height: 100%;
   overflow: hidden;

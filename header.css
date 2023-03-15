@@ -1,0 +1,64 @@
+.header__bg {
+  background-image: url(./img/background-top.png);
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__logo {
+}
+
+.header__link {
+  padding-top: 10px;
+  margin-left: -200px;
+}
+
+.header__link a {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  padding-right: 30px;
+
+  color: #8794ba;
+  cursor: pointer;
+}
+
+.header__link a:hover{
+    color: #fff;
+}
+
+
+.header_auto a {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  padding-right: 40px;
+  cursor: pointer;
+
+
+  color: #8794ba;
+}
+
+.header_auto button {
+  /* Текст кнопки */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  cursor: pointer;
+
+  color: #8794ba;
+
+  /* Стиль кнопки */
+  width: 161px;
+  height: 40px;
+  border: 1px solid #465b95;
+  border-radius: 68px;
+  background-color: transparent;
+}
