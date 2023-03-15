@@ -1,0 +1,59 @@
+.hero {
+  display: flex;
+}
+
+.hero__text {
+  width: 550px;
+}
+
+.hero__text h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 120%;
+  padding-top: 100px;
+  padding-bottom: 15px;
+
+  color: #ffffff;
+}
+
+.hero__text p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  padding-bottom: 64px;
+
+  color: #8794ba;
+}
+
+.hero__text button {
+  /* Стиль текста */
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #ffffff;
+
+  /* Стиль кнопки */
+  width: 238px;
+  height: 50px;
+
+  background: #ef2a82;
+  border-radius: 68px;
+
+  margin-bottom: 230px;
+  cursor: pointer;
+}
+.hero__text button:hover {
+    background: #8794ba;
+    color: black;
+}
+
+.hero__graphs{
+    width: 804px;
+    height: 554px;
+    margin-right: -200px;
+    
+}

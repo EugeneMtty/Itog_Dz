@@ -6,8 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Analytics</title>
     <!-- styles -->
-    <link rel="stylesheet" href="./body.css" />
-    <link rel="stylesheet" href="./header.css">
+    <link rel="stylesheet" href="./styles/body.css" />
+    <link rel="stylesheet" href="./styles/header.css" />
+    <link rel="stylesheet" href="./styles/hero.css" />
+    <link rel="stylesheet" href="./styles/features.css" />
+    <link rel="stylesheet" href="./styles/repost.css" />
+    <link rel="stylesheet" href="./styles/customizable.css" />
+    <link rel="stylesheet" href="./styles/dashboard.css" />
+    <link rel="stylesheet" href="./styles/pricing.css" />
+
     <!-- Fronts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -20,6 +27,7 @@
     <div class="wrapper">
       <!-- Header -->
       <div class="header__bg">
+        <!-- Растянул bg на два блока-->
         <div class="header page-container">
           <div class="header__logo">
             <img src="./img/logo.svg" alt="Analytics logo" />
@@ -31,13 +39,186 @@
             <a>Blog</a>
             <a>Blog</a>
           </div>
-          <div class="header_auto">
+          <div class="header__auto">
             <a>Sign in</a>
             <button>Sign in</button>
           </div>
         </div>
+        <!-- Hero -->
+        <div class="hero page-container">
+          <div class="hero__text">
+            <h1>Monitor your business on real-time dashboard</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum
+              nisi aliquet volutpat pellentesque volutpat est. Sapien in etiam
+              vitae nibh nunc mattis imperdiet sed nullam.
+            </p>
+            <button>Try for free</button>
+          </div>
+          <div class="hero__graphs">
+            <img src="/img/main-screen.png" alt="Графики" />
+          </div>
+        </div>
       </div>
-      <!-- Header end -->
+      <!-- Features -->
+      <div class="features__bg">
+        <div class="features page-container">
+          <div class="features__header">
+            <h2>Main Features</h2>
+            <a>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum
+              nisi aliquet volutpat pellentesque volutpat est. Sapien in etiam
+              vitae nibh nunc mattis imperdiet sed nullam. Vitae et, tortor
+              pulvinar risus pulvinar sit amet. Id vel in nam malesuada.
+            </a>
+          </div>
+          <div class="features__box">
+            <div class="features__text">
+              <img src="./img/Monitoring.png" alt="Мониторинг" />
+              <h5>Monitoring 24/7</h5>
+              <a
+                >Lorem ipsum dolor sit amet, consectetur adipis cing elit.
+                Elementum nisi aliquet volutpat.</a
+              >
+            </div>
+            <div class="features__text">
+              <img src="./img/Widget System.png" alt="Системы" />
+              <h5>Widget System</h5>
+              <a
+                >Sapien in etiam vitae nibh nunc mattis imperdiet sed nullam.
+                Vitae et, tortor pulvinar risus pulvinar.</a
+              >
+            </div>
+            <div class="features__text">
+              <img src="./img/Best Performance.png" alt="ЗеБест" />
+              <h5>Best Performance</h5>
+              <a
+                >Lorem ipsum dolor sit amet, consectetur adipis cing elit.
+                Elementum nisi aliquet volutpat.</a
+              >
+            </div>
+          </div>
+        </div>
+        <!-- Reports  -->
+        <div class="repost page-container">
+          <div class="repost__text">
+            <h2>Automated Reports <br />& Widget Alerts</h2>
+            <a
+              >Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Elementum nisi aliquet volutpat pellentesque volutpat est. Sapien
+              in etiam vitae nibh nunc mattis imperdiet sed nullam. Vitae et,
+              tortor pulvinar risus pulvinar sit amet.</a
+            >
+          </div>
+          <div class="repost__graphs">
+            <img src="./img/Automated Reports.png" alt="График" />
+          </div>
+        </div>
+        <!-- Customizable -->
+        <div class="customizable page-container">
+          <div class="customizable__graphs">
+            <img src="./img/Customizable.png" alt="График" />
+          </div>
+          <div class="customizable__text">
+            <h2>Fully customizable to <br />address your needs</h2>
+            <a
+              >Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Elementum nisi aliquet volutpat pellentesque volutpat est. Sapien
+              in etiam vitae nibh nunc mattis imperdiet sed nullam. Vitae et,
+              tortor pulvinar risus pulvinar sit amet.</a
+            >
+          </div>
+        </div>
+        <!-- Dashboard -->
+        <div class="dashboard page-container">
+          <div class="dashboard__text">
+            <h2>
+              Pre-built Dashboard <br />
+              Templates
+            </h2>
+            <a
+              >Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Elementum nisi aliquet volutpat pellentesque volutpat est. Sapien
+              in etiam vitae nibh nunc mattis imperdiet sed nullam. Vitae et,
+              tortor pulvinar risus pulvinar sit amet.</a
+            >
+          </div>
+          <div class="dashboard__graphs">
+            <img src="./img/dashboard.png" alt="График" />
+          </div>
+        </div>
+      </div>
+      <!-- Bg -->
+      <!-- Pricing -->
+      <div class="pricing__bg">
+        <div class="pricing page-container">
+          <div class="pricing__text">
+            <h2>Pricing Plans</h2>
+            <a
+              >Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Elementum nisi aliquet volutpat pellentesque volutpat est.
+            </a>
+          </div>
+          <div class="pricing__container">
+            <div class="pricing__box">
+              <h5>Starter</h5>
+              <a>up to 3 users</a>
+              <div></div>
+              <h5>$29</h5>
+              <p>per month</p>
+              <button>Order</button>
+            </div>
+            <div class="pricing__box">
+              <h5>Standard</h5>
+              <a>up to 20 users</a>
+              <div></div>
+              <h5>$99</h5>
+              <p>per month</p>
+              <button>Order</button>
+            </div>
+            <div class="pricing__box">
+              <h5>Premium</h5>
+              <a>up to 200 users</a>
+              <div></div>
+              <h5>$299</h5>
+              <p>per month</p>
+              <button>Order</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Sign Up -->
+      <div class="sing_bg">
+        <div class="sing page-container">
+          <div class="sing__text">
+            <h2></h2>
+            <div class="sing__decor">
+              <div></div>
+              <a>Trusted by</a>
+              <div></div>
+            </div>
+            <div class="sing__trust">
+              <img src="" alt="" />
+              <img src="" alt="" />
+              <img src="" alt="" />
+              <img src="" alt="" />
+            </div>
+          </div>
+          <div class="sing__form">
+            <h3></h3>
+            <button></button>
+            <input type="text" placeholder="Your primary email">
+            <input type="text" placeholder="Password">
+            <input type="text" placeholder="Re-type Password">
+            <a>Help us get better</a>
+            <div>Звезды</div>
+            <div>_________</div>
+            <p>Already have an account? <span class="form__link">Login</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Wrapper end-->
     </div>
   </body>
 </html>
