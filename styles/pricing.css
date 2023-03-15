@@ -1,6 +1,9 @@
 .pricing__bg {
   background: #e5e5e5;
   background-image: url(/img/bg\ pricing.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1086px;
 }
 
 .pricing {
@@ -88,6 +91,14 @@
 
   background: #2a407c;
 }
+.pricing__box h6 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 35px;
+  text-align: center;
+  color: #ffffff;
+}
 
 .pricing__box p {
   font-style: normal;
@@ -131,8 +142,58 @@
 .pricing__box:hover h5 {
   color: #172755;
 }
+.pricing__box:hover h6 {
+  color: #172755;
+}
 .pricing__box:hover {
   background: #ffffff;
   box-shadow: 0px 18px 50px -15px #060f28;
   border-radius: 30px;
+}
+
+@media (max-width: 1227px) {
+  .pricing__text {
+    align-items: baseline;
+  }
+  .pricing__text h2 {
+    font-size: 30px;
+    line-height: 35px;
+    text-align: left;
+  }
+  .pricing__text a {
+    font-size: 14px;
+    line-height: 140%;
+    text-align: left;
+    width: auto;
+  }
+  .pricing__container {
+    overflow: auto;
+  }
+
+  .pricing__box {
+    width: 280px;
+    height: 358px;
+  }
+  .pricing__box h5 {
+    font-size: 25px;
+    line-height: 29px;
+  }
+  .pricing__box a {
+    font-size: 13px;
+    line-height: 140%;
+  }
+
+  .pricing__box div {
+    width: 171px;
+  }
+
+  .pricing__box h6 {
+    font-size: 30px;
+    line-height: 35px;
+  }
+
+  .pricing__box p {
+    font-size: 13px;
+    line-height: 140%;
+  }
 }

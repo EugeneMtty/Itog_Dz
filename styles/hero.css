@@ -47,13 +47,45 @@
   cursor: pointer;
 }
 .hero__text button:hover {
-    background: #8794ba;
-    color: black;
+  background: #8794ba;
+  color: black;
 }
 
-.hero__graphs{
-    width: 804px;
-    height: 554px;
-    margin-right: -200px;
-    
+.hero__graphs {
+  width: 804px;
+  height: 554px;
+  margin-right: -800px;
+}
+
+@media (max-width: 837px) {
+  .hero {
+    flex-direction: column-reverse;
+  }
+  .hero__text {
+    width: 326px;
+  }
+  .hero__text h1 {
+    font-size: 31px;
+  }
+  .hero__text button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 80px;
+    gap: 10px;
+
+    width: 335px;
+    height: 50px;
+
+    background: #ef2a82;
+    border-radius: 68px;
+  }
+  .hero__graphs{
+    height: 182px;
+  }
+
+  .hero__graphs img{
+    width: 335px;
+  }
 }

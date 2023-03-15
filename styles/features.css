@@ -37,6 +37,9 @@
   display: flex;
   align-items: center;
 }
+.features__container {
+  flex-direction: column;
+}
 
 .features__text {
   display: flex;
@@ -66,7 +69,6 @@
 }
 
 .features__text a {
-
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -76,4 +78,39 @@
   margin-right: 20px;
 
   color: #8794ba;
+}
+
+@media (max-width: 837px) {
+  .features__header h2 {
+    font-size: 30px;
+    line-height: 35px;
+    text-align: left;
+  }
+
+  .features__header {
+    text-align: left;
+  }
+
+  .features__header a {
+    font-size: 14px;
+    line-height: 140%;
+  }
+
+  .features__box {
+    flex-direction: column;
+  }
+  .features__text {
+    flex-direction: row;
+    align-items: left;
+    text-align: left;
+  }
+
+  .features__container {
+    margin-bottom: 35px;
+    margin-left: 20px;
+  }
+
+  .features__text h5{
+    text-align: left;
+  }
 }

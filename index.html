@@ -14,6 +14,8 @@
     <link rel="stylesheet" href="./styles/customizable.css" />
     <link rel="stylesheet" href="./styles/dashboard.css" />
     <link rel="stylesheet" href="./styles/pricing.css" />
+    <link rel="stylesheet" href="./styles/sing.css" />
+    <link rel="stylesheet" href="./styles/footer.css" />
 
     <!-- Fronts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -33,11 +35,11 @@
             <img src="./img/logo.svg" alt="Analytics logo" />
           </div>
           <div class="header__link">
-            <a>Products</a>
-            <a>Pricing</a>
-            <a>FAQ</a>
-            <a>Blog</a>
-            <a>Blog</a>
+            <a href="">Products</a>
+            <a href="">Pricing</a>
+            <a href="">FAQ</a>
+            <a href="">Blog</a>
+            <a href="">Blog</a>
           </div>
           <div class="header__auto">
             <a>Sign in</a>
@@ -75,27 +77,33 @@
           <div class="features__box">
             <div class="features__text">
               <img src="./img/Monitoring.png" alt="Мониторинг" />
-              <h5>Monitoring 24/7</h5>
-              <a
-                >Lorem ipsum dolor sit amet, consectetur adipis cing elit.
-                Elementum nisi aliquet volutpat.</a
-              >
+              <div class="features__container">
+                <h5>Monitoring 24/7</h5>
+                <a
+                  >Lorem ipsum dolor sit amet, consectetur adipis cing elit.
+                  Elementum nisi aliquet volutpat.</a
+                >
+              </div>
             </div>
             <div class="features__text">
               <img src="./img/Widget System.png" alt="Системы" />
-              <h5>Widget System</h5>
-              <a
-                >Sapien in etiam vitae nibh nunc mattis imperdiet sed nullam.
-                Vitae et, tortor pulvinar risus pulvinar.</a
-              >
+              <div class="features__container">
+                <h5>Widget System</h5>
+                <a
+                  >Sapien in etiam vitae nibh nunc mattis imperdiet sed nullam.
+                  Vitae et, tortor pulvinar risus pulvinar.</a
+                >
+              </div>
             </div>
             <div class="features__text">
               <img src="./img/Best Performance.png" alt="ЗеБест" />
-              <h5>Best Performance</h5>
-              <a
-                >Lorem ipsum dolor sit amet, consectetur adipis cing elit.
-                Elementum nisi aliquet volutpat.</a
-              >
+              <div class="features__container">
+                <h5>Best Performance</h5>
+                <a
+                  >Lorem ipsum dolor sit amet, consectetur adipis cing elit.
+                  Elementum nisi aliquet volutpat.</a
+                >
+              </div>
             </div>
           </div>
         </div>
@@ -164,7 +172,7 @@
               <h5>Starter</h5>
               <a>up to 3 users</a>
               <div></div>
-              <h5>$29</h5>
+              <h6>$29</h6>
               <p>per month</p>
               <button>Order</button>
             </div>
@@ -172,7 +180,7 @@
               <h5>Standard</h5>
               <a>up to 20 users</a>
               <div></div>
-              <h5>$99</h5>
+              <h6>$99</h6>
               <p>per month</p>
               <button>Order</button>
             </div>
@@ -180,7 +188,7 @@
               <h5>Premium</h5>
               <a>up to 200 users</a>
               <div></div>
-              <h5>$299</h5>
+              <h6>$299</h6>
               <p>per month</p>
               <button>Order</button>
             </div>
@@ -191,34 +199,68 @@
       <div class="sing_bg">
         <div class="sing page-container">
           <div class="sing__text">
-            <h2></h2>
+            <h2>See why the world’s best companies use Analytics</h2>
             <div class="sing__decor">
               <div></div>
               <a>Trusted by</a>
               <div></div>
             </div>
             <div class="sing__trust">
-              <img src="" alt="" />
-              <img src="" alt="" />
-              <img src="" alt="" />
-              <img src="" alt="" />
+              <img src="./img/accenture-4.png" alt="accenture" />
+              <img src="./img/react.png" alt="Path" />
+              <img src="./img/airbnb.png" alt="airbnb" />
+              <img src="./img/sky-4.png" alt="sky" />
             </div>
           </div>
           <div class="sing__form">
-            <h3></h3>
-            <button></button>
-            <input type="text" placeholder="Your primary email">
-            <input type="text" placeholder="Password">
-            <input type="text" placeholder="Re-type Password">
+            <h3>Sign Up</h3>
+            <button>Start your free trial</button>
+            <input type="text" placeholder="Your primary email" />
+            <input type="password" id="password" placeholder="Password" />
+            <input
+              type="password"
+              id="confirmPassword"
+              placeholder="Re-type Password"
+            />
             <a>Help us get better</a>
-            <div>Звезды</div>
-            <div>_________</div>
-            <p>Already have an account? <span class="form__link">Login</span></p>
+            <div class="sing__star">
+              <img class="star" src="./img/Star.svg" alt="Оценка" />
+              <img class="star" src="./img/Star.svg" alt="Оценка" />
+              <img class="star" src="./img/Star.svg" alt="Оценка" />
+              <img class="star" src="./img/Star.svg" alt="Оценка" />
+              <img class="star" src="./img/Star.svg" alt="Оценка" />
+            </div>
+            <div class="sing__line"></div>
+            <p>
+              Already have an account? <span class="form__link">Login</span>
+            </p>
           </div>
         </div>
       </div>
-
-      <!-- Wrapper end-->
+      <!-- Footer -->
+      <div class="footer__bg">
+        <div class="footer page-container">
+          <div class="footer__logo">
+            <img src="./img/logo(1).svg" alt="Analytics logo" />
+          </div>
+          <div class="footer__link">
+            <a href="">Products</a>
+            <a href="">Pricing</a>
+            <a href="">FAQ</a>
+            <a href="">Blog</a>
+            <a a href="">Blog</a>
+          </div>
+          <div class="footer__Icons">
+            <a href=""><img src="./img/Facebook.svg" alt="Facebook" /></a>
+            <a href=""><img src="./img/Twitter.svg" alt="Twitter" /></a>
+            <a href=""><img src="./img/Instagram.svg" alt="Instagram" /></a>
+          </div>
+        </div>
+      </div>
     </div>
+    <!-- Wrapper end-->
+    <script src="star.js"></script>
+    <script src="forma.js"></script>
+    <script src="./"></script>
   </body>
 </html>

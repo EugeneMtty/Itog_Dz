@@ -1,0 +1,185 @@
+.sing_bg {
+  background: #f8f9ff;
+}
+
+.sing {
+  display: flex;
+  justify-content: center;
+}
+
+.sing__text {
+  margin-top: 156px;
+  width: 431px;
+  margin-right: 58px;
+}
+
+.sing__text h2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+
+  color: #160637;
+  margin-bottom: 75px;
+}
+.sing__decor {
+  display: flex;
+}
+.sing__decor a {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: -12px;
+  padding: 0px 24px 0px 24px;
+
+  color: #8989a2;
+}
+
+.sing__decor div {
+  align-items: center;
+  width: 144px;
+  height: 1px;
+
+  background: #2a407c;
+}
+
+.sing__trust {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 100px;
+  grid-row-gap: 75px;
+  margin-top: 67px;
+  margin-bottom: 198px;
+}
+
+.sing__form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 428px;
+  height: 475px;
+
+  background: #ffffff;
+
+  border-radius: 8px;
+  margin-top: 109px;
+
+  -webkit-box-shadow: 1px 52px 0px 17px rgba(249, 240, 255, 1);
+  -moz-box-shadow: 1px 52px 0px 17px rgba(249, 240, 255, 1);
+  box-shadow: 1px 52px 0px 17px rgba(249, 240, 255, 1);
+}
+.sing__form h3 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+
+  text-align: center;
+
+  color: #160637;
+  margin-bottom: 16px;
+  margin-top: 32px;
+}
+
+.sing__form button {
+  /* Стиль текста */
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+
+  text-align: center;
+
+  color: #ffffff;
+  /* Cтиль кнопки */
+  width: 344px;
+  height: 48px;
+  background: #722ed1;
+
+  margin-bottom: 16px;
+  cursor: pointer;
+}
+
+.sing__form button:hover {
+  background: #a66ff1;
+}
+
+.sing__form input {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #8989a2;
+
+  width: 344px;
+  height: 48px;
+
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 16px;
+}
+
+.sing__form a {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #000000;
+  margin-bottom: 16px;
+}
+
+.sing__form p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+
+  color: #8989a2;
+}
+.star {
+  cursor: pointer;
+}
+
+.star.active,
+.star:hover ~ .star {
+  filter: brightness(0.7);
+}
+
+.sing__line {
+  width: 144px;
+  height: 1px;
+
+  background: #2a407c;
+  margin-bottom: 16px;
+}
+
+.form__link {
+  color: rgba(114, 46, 209, 1);
+  cursor: pointer;
+}
+
+.sing__formbg {
+  width: 480px;
+  height: 480px;
+
+  background: #f9f0ff;
+}
+
+@media (max-width: 1227px) {
+  .sing {
+    flex-direction: column-reverse;
+  }
+  .sing__text {
+    display: none;
+  }
+  .sing__form {
+    width: auto;
+    margin-top: 34px;
+    box-shadow: none;
+  }
+}

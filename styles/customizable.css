@@ -33,3 +33,31 @@
     margin-top: 130px;
     width: 600px;
   }
+
+  @media (max-width: 837px) {
+    .customizable {
+      flex-direction: column-reverse;
+    }
+    .customizable__text {
+      margin-top: 75px;
+      margin-left: 4px;
+    }
+    .customizable__text h2 {
+      font-size: 30px;
+      line-height: 35px;
+    }
+    .customizable__text a {
+      display: flex;
+      width: 335px;
+      font-size: 14px;
+      line-height: 140%;
+    }
+    .customizable__graphs {
+      margin-top: 50px;
+    }
+    .customizable__graphs img {
+      width: 335px;
+    }
+  }
+  
+  
